@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {useLoadScript, MarkerF, GoogleMap} from "@react-google-maps/api";
+import {useLoadScript, GoogleMap, MarkerF} from "@react-google-maps/api";
 import { useMemo } from "react";
 
 export default function Home({issLocation}) {
@@ -20,13 +20,9 @@ export default function Home({issLocation}) {
 
 
             const center = useMemo(() => ({lat: 21, lng: 10}), [])
-            console.log(issLocation)
 
             const issLocationLatitude = parseInt(issLocation.issLocation["latitude"]);
             const issLocationLongitude = parseInt(issLocation.issLocation["longitude"]);
-
-            console.log(issLocationLatitude);
-            console.log(issLocationLongitude)
 
             return <GoogleMap 
             zoom={1} 

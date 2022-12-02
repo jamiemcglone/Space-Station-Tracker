@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import ButtonComponent from "../components/ButtonComponent";
 import Home from "../components/MapComponent"
 
 
@@ -19,6 +20,7 @@ const AppContainer = () => {
     return (
         <>
         <Home issLocation={issLocation} />
+        <ButtonComponent getSpaceStationLocation={getSpaceStationLocation}/>
         </>
     )
 }
