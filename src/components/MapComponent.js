@@ -19,17 +19,18 @@ export default function Home({issLocation}) {
         
         function Map({issLocation}) {
 
-
             const center = useMemo(() => ({lat: 21, lng: 10}), [])
 
             const issLocationLatitude = parseInt(issLocation.issLocation["latitude"]);
             const issLocationLongitude = parseInt(issLocation.issLocation["longitude"]);
 
             return <GoogleMap 
-            zoom={1} 
+            zoom={2} 
             center={center} 
             mapContainerClassName="map-container"
             >
-                <MarkerF position={{lat: issLocationLatitude, lng: issLocationLongitude}}/>
+                <MarkerF position={{lat: issLocationLatitude, lng: issLocationLongitude}} 
+                // icon={'https://cdn-icons-png.flaticon.com/512/1067/1067357.png'}
+                zoom={2}/>
             </GoogleMap>
         }

@@ -30,7 +30,6 @@ function App() {
 
   return (
     <>
-      <h1>Space Station Tracker</h1>
       <AppContainer/>
     </>
   )
