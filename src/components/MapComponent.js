@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {useLoadScript, GoogleMap, MarkerF} from "@react-google-maps/api";
 import { useMemo } from "react";
 import googleMapsKey from '../config';
+
 
 export default function Home({issLocation}) {
         const {isLoaded} = useLoadScript({
@@ -10,11 +11,6 @@ export default function Home({issLocation}) {
         
         if (!isLoaded) return <div>Loading...</div>
         return <Map issLocation={{issLocation}}/>
-        // return (
-        //   <>
-        //     {/* <AppContainer /> */}
-        //     <p>Map</p>
-        //   </>
     }
         
         function Map({issLocation}) {
@@ -29,8 +25,6 @@ export default function Home({issLocation}) {
             center={center} 
             mapContainerClassName="map-container"
             >
-                <MarkerF position={{lat: issLocationLatitude, lng: issLocationLongitude}} 
-                // icon={'https://cdn-icons-png.flaticon.com/512/1067/1067357.png'}
-                zoom={2}/>
+                <MarkerF position={{lat: issLocationLatitude, lng: issLocationLongitude}}/>
             </GoogleMap>
         }
