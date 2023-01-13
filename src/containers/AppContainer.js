@@ -9,9 +9,9 @@ const AppContainer = () => {
 
     const [issLocation, setIssLocation] = useState([])
 
-    useEffect(() => {
-        getSpaceStationLocation();
-    }, []);
+    // useEffect(() => {
+    //     getSpaceStationLocation();
+    // }, []);
 
     const getSpaceStationLocation = function() {
         fetch('http://api.open-notify.org/iss-now')

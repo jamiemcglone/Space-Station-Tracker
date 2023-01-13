@@ -4,7 +4,7 @@ const ButtonComponent = ({getSpaceStationLocation}) => {
 
     return(
         <div id="button">
-        <h3 onClick={getSpaceStationLocation}>Where is the Space Station?</h3>
+        <h3 onClick={getSpaceStationLocation}>Show me the Space Station!</h3>
         </div>
     )
 
