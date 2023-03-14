@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Space-Station-Tracker/static/css/main.c011e041.css",
+    "main.js": "/Space-Station-Tracker/static/js/main.e31a78e9.js",
+    "static/js/787.ea3a5fff.chunk.js": "/Space-Station-Tracker/static/js/787.ea3a5fff.chunk.js",
+    "index.html": "/Space-Station-Tracker/index.html",
+    "main.c011e041.css.map": "/Space-Station-Tracker/static/css/main.c011e041.css.map",
+    "main.e31a78e9.js.map": "/Space-Station-Tracker/static/js/main.e31a78e9.js.map",
+    "787.ea3a5fff.chunk.js.map": "/Space-Station-Tracker/static/js/787.ea3a5fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c011e041.css",
+    "static/js/main.e31a78e9.js"
+  ]
+}
