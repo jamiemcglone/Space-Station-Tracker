@@ -2,7 +2,7 @@
   "name": "space-station-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<username>.github.io/Space-Station-Tracker",
+  "homepage": "https://jamiemcglone.github.io/Space-Station-Tracker",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
